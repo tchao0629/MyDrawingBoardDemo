@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20F0768425C115F500A56B38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F0768325C115F500A56B38 /* AppDelegate.m */; };
+		20F0768725C115F500A56B38 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F0768625C115F500A56B38 /* SceneDelegate.m */; };
+		20F0768A25C115F500A56B38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F0768925C115F500A56B38 /* ViewController.m */; };
+		20F0768D25C115F500A56B38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20F0768B25C115F500A56B38 /* Main.storyboard */; };
+		20F0769025C115F500A56B38 /* MyDrawingBoardDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 20F0768E25C115F500A56B38 /* MyDrawingBoardDemo.xcdatamodeld */; };
+		20F0769225C115F900A56B38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20F0769125C115F900A56B38 /* Assets.xcassets */; };
+		20F0769525C115F900A56B38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20F0769325C115F900A56B38 /* LaunchScreen.storyboard */; };
+		20F0769825C115F900A56B38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F0769725C115F900A56B38 /* main.m */; };
+		20F076B725C11C5A00A56B38 /* TCStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F076AF25C11C5A00A56B38 /* TCStack.m */; };
+		20F076B825C11C5A00A56B38 /* TCDrawingBoardBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F076B425C11C5A00A56B38 /* TCDrawingBoardBar.m */; };
+		20F076B925C11C5A00A56B38 /* TCDrawingBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F076B625C11C5A00A56B38 /* TCDrawingBoardView.m */; };
+		88EDCDBAE9FCFCEC4A263444 /* Pods_MyDrawingBoardDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15A8E9C8B4A949F1445B8D91 /* Pods_MyDrawingBoardDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15A8E9C8B4A949F1445B8D91 /* Pods_MyDrawingBoardDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyDrawingBoardDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20F0767F25C115F400A56B38 /* MyDrawingBoardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDrawingBoardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20F0768225C115F500A56B38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		20F0768325C115F500A56B38 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		20F0768525C115F500A56B38 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		20F0768625C115F500A56B38 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		20F0768825C115F500A56B38 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		20F0768925C115F500A56B38 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		20F0768C25C115F500A56B38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20F0768F25C115F500A56B38 /* MyDrawingBoardDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyDrawingBoardDemo.xcdatamodel; sourceTree = "<group>"; };
+		20F0769125C115F900A56B38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20F0769425C115F900A56B38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20F0769625C115F900A56B38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20F0769725C115F900A56B38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20F076AF25C11C5A00A56B38 /* TCStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCStack.m; sourceTree = "<group>"; };
+		20F076B025C11C5A00A56B38 /* TCStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCStack.h; sourceTree = "<group>"; };
+		20F076B325C11C5A00A56B38 /* TCDrawingBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCDrawingBoardView.h; sourceTree = "<group>"; };
+		20F076B425C11C5A00A56B38 /* TCDrawingBoardBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCDrawingBoardBar.m; sourceTree = "<group>"; };
+		20F076B525C11C5A00A56B38 /* TCDrawingBoardBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCDrawingBoardBar.h; sourceTree = "<group>"; };
+		20F076B625C11C5A00A56B38 /* TCDrawingBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCDrawingBoardView.m; sourceTree = "<group>"; };
+		398BF6390603D289076ADFD7 /* Pods-MyDrawingBoardDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDrawingBoardDemo.debug.xcconfig"; path = "Target Support Files/Pods-MyDrawingBoardDemo/Pods-MyDrawingBoardDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D01337D69254182FD66379CD /* Pods-MyDrawingBoardDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDrawingBoardDemo.release.xcconfig"; path = "Target Support Files/Pods-MyDrawingBoardDemo/Pods-MyDrawingBoardDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20F0767C25C115F400A56B38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88EDCDBAE9FCFCEC4A263444 /* Pods_MyDrawingBoardDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20F0767625C115F400A56B38 = {
+			isa = PBXGroup;
+			children = (
+				20F0768125C115F400A56B38 /* MyDrawingBoardDemo */,
+				20F0768025C115F400A56B38 /* Products */,
+				70C7C2F26BD1AD3D81D3B55F /* Pods */,
+				29AF09462E1B5D6C165C56E3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		20F0768025C115F400A56B38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20F0767F25C115F400A56B38 /* MyDrawingBoardDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20F0768125C115F400A56B38 /* MyDrawingBoardDemo */ = {
+			isa = PBXGroup;
+			children = (
+				20F076AC25C11C5A00A56B38 /* Main */,
+				20F0768225C115F500A56B38 /* AppDelegate.h */,
+				20F0768325C115F500A56B38 /* AppDelegate.m */,
+				20F0768525C115F500A56B38 /* SceneDelegate.h */,
+				20F0768625C115F500A56B38 /* SceneDelegate.m */,
+				20F0768825C115F500A56B38 /* ViewController.h */,
+				20F0768925C115F500A56B38 /* ViewController.m */,
+				20F0768B25C115F500A56B38 /* Main.storyboard */,
+				20F0769125C115F900A56B38 /* Assets.xcassets */,
+				20F0769325C115F900A56B38 /* LaunchScreen.storyboard */,
+				20F0769625C115F900A56B38 /* Info.plist */,
+				20F0769725C115F900A56B38 /* main.m */,
+				20F0768E25C115F500A56B38 /* MyDrawingBoardDemo.xcdatamodeld */,
+			);
+			path = MyDrawingBoardDemo;
+			sourceTree = "<group>";
+		};
+		20F076AC25C11C5A00A56B38 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				20F076AD25C11C5A00A56B38 /* Common */,
+				20F076B125C11C5A00A56B38 /* Class */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		20F076AD25C11C5A00A56B38 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				20F076AE25C11C5A00A56B38 /* Stack */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		20F076AE25C11C5A00A56B38 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				20F076B025C11C5A00A56B38 /* TCStack.h */,
+				20F076AF25C11C5A00A56B38 /* TCStack.m */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
+		20F076B125C11C5A00A56B38 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				20F076B225C11C5A00A56B38 /* drawingBoard */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		20F076B225C11C5A00A56B38 /* drawingBoard */ = {
+			isa = PBXGroup;
+			children = (
+				20F076B525C11C5A00A56B38 /* TCDrawingBoardBar.h */,
+				20F076B425C11C5A00A56B38 /* TCDrawingBoardBar.m */,
+				20F076B325C11C5A00A56B38 /* TCDrawingBoardView.h */,
+				20F076B625C11C5A00A56B38 /* TCDrawingBoardView.m */,
+			);
+			path = drawingBoard;
+			sourceTree = "<group>";
+		};
+		29AF09462E1B5D6C165C56E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15A8E9C8B4A949F1445B8D91 /* Pods_MyDrawingBoardDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70C7C2F26BD1AD3D81D3B55F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				398BF6390603D289076ADFD7 /* Pods-MyDrawingBoardDemo.debug.xcconfig */,
+				D01337D69254182FD66379CD /* Pods-MyDrawingBoardDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20F0767E25C115F400A56B38 /* MyDrawingBoardDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20F0769B25C115F900A56B38 /* Build configuration list for PBXNativeTarget "MyDrawingBoardDemo" */;
+			buildPhases = (
+				E29FFD055B691D19EAE5CBB4 /* [CP] Check Pods Manifest.lock */,
+				20F0767B25C115F400A56B38 /* Sources */,
+				20F0767C25C115F400A56B38 /* Frameworks */,
+				20F0767D25C115F400A56B38 /* Resources */,
+				234B41052B91AC5B4C2670FF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyDrawingBoardDemo;
+			productName = MyDrawingBoardDemo;
+			productReference = 20F0767F25C115F400A56B38 /* MyDrawingBoardDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20F0767725C115F400A56B38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = tangchao;
+				TargetAttributes = {
+					20F0767E25C115F400A56B38 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 20F0767A25C115F400A56B38 /* Build configuration list for PBXProject "MyDrawingBoardDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20F0767625C115F400A56B38;
+			productRefGroup = 20F0768025C115F400A56B38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20F0767E25C115F400A56B38 /* MyDrawingBoardDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20F0767D25C115F400A56B38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20F0769525C115F900A56B38 /* LaunchScreen.storyboard in Resources */,
+				20F0769225C115F900A56B38 /* Assets.xcassets in Resources */,
+				20F0768D25C115F500A56B38 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		234B41052B91AC5B4C2670FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyDrawingBoardDemo/Pods-MyDrawingBoardDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyDrawingBoardDemo/Pods-MyDrawingBoardDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyDrawingBoardDemo/Pods-MyDrawingBoardDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E29FFD055B691D19EAE5CBB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyDrawingBoardDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20F0767B25C115F400A56B38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20F0769825C115F900A56B38 /* main.m in Sources */,
+				20F076B725C11C5A00A56B38 /* TCStack.m in Sources */,
+				20F0768A25C115F500A56B38 /* ViewController.m in Sources */,
+				20F0768425C115F500A56B38 /* AppDelegate.m in Sources */,
+				20F0769025C115F500A56B38 /* MyDrawingBoardDemo.xcdatamodeld in Sources */,
+				20F076B925C11C5A00A56B38 /* TCDrawingBoardView.m in Sources */,
+				20F0768725C115F500A56B38 /* SceneDelegate.m in Sources */,
+				20F076B825C11C5A00A56B38 /* TCDrawingBoardBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		20F0768B25C115F500A56B38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20F0768C25C115F500A56B38 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20F0769325C115F900A56B38 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20F0769425C115F900A56B38 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20F0769925C115F900A56B38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		20F0769A25C115F900A56B38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20F0769C25C115F900A56B38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 398BF6390603D289076ADFD7 /* Pods-MyDrawingBoardDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyDrawingBoardDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Belin.MyDrawingBoardDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20F0769D25C115F900A56B38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D01337D69254182FD66379CD /* Pods-MyDrawingBoardDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyDrawingBoardDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Belin.MyDrawingBoardDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20F0767A25C115F400A56B38 /* Build configuration list for PBXProject "MyDrawingBoardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20F0769925C115F900A56B38 /* Debug */,
+				20F0769A25C115F900A56B38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20F0769B25C115F900A56B38 /* Build configuration list for PBXNativeTarget "MyDrawingBoardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20F0769C25C115F900A56B38 /* Debug */,
+				20F0769D25C115F900A56B38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		20F0768E25C115F500A56B38 /* MyDrawingBoardDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				20F0768F25C115F500A56B38 /* MyDrawingBoardDemo.xcdatamodel */,
+			);
+			currentVersion = 20F0768F25C115F500A56B38 /* MyDrawingBoardDemo.xcdatamodel */;
+			path = MyDrawingBoardDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 20F0767725C115F400A56B38 /* Project object */;
+}
